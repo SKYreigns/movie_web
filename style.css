@@ -1,0 +1,107 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+.navbar{
+    height: 60px;
+    background-color: darkorange;
+    display: flex;
+    align-items: center;
+    padding-left: 20px;
+    
+}
+body{
+    background: radial-gradient(circle at center, rgb(48, 47, 47), rgb(21, 21, 21));
+}
+
+
+.greets{
+    margin: 20px;
+}
+
+.intro{
+    color: rgb(193, 184, 184);
+    text-transform: capitalize;
+    font-family: 'Courier New', Courier, monospace;
+    text-align: center;
+    margin: 20px;
+}
+
+.info{
+    color: whitesmoke;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size:20px;
+    text-align: center;
+    margin-top: 30px;
+    margin-bottom: 50px;
+    padding: 15px;
+    text-align: justify;
+}
+
+
+.table_title{
+    margin-bottom: 30px;
+}
+
+
+table {
+    border-collapse: collapse;
+    margin-left: 30px;
+    margin-bottom: 100px;
+    width: 90%;
+}
+
+th, td {
+    padding: 25px;
+    text-align: left;
+    border: 1px solid rgb(55, 54, 54);
+}
+th {
+    background-color: #8f8f8f;
+    font-size: 20px;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif ;
+}
+td{
+    color: white;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+   font-size: 18px;
+}
+td a{
+    text-decoration: none;
+    color: white;
+}
+
+td a:hover{
+    color: rgb(176, 175, 175);
+}
+tr:hover {
+    background-color: #101010;
+}
+
+.fa-telegram{
+    color: rgb(3, 137, 233);
+}
+
+.link_tele{
+     display: flex;
+     justify-content: center;
+     align-items: center;
+    background-color: white;
+    text-decoration: none;
+    width: 25px;
+    height: 20px;
+    border-radius: 50%;
+    margin: 18px;
+} 
+
+.fa-telegram:hover{
+color: rgb(57, 173, 255);
+}
+
+
+@media (max-width: 600px) {
+    th, td {
+        font-size: 14px; /* Adjust font size for smaller screens */
+        padding: 10px;
+    }
+}
